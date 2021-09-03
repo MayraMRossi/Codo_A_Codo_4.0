@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+nav{
+    background-color: #27305b;
+
+}
+
 .arta{
     background-color: #f58c77;
 }
@@ -14,7 +19,5 @@ footer{
     align-content: center;
     background-color: #27305b;
 }
-nav{
-    background-color: #27305b;
 
-}
+
