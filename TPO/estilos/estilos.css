@@ -1,6 +1,10 @@
+
 section{
     background-color: rgb(240, 207, 167);
 }
 footer{
+    background-color: black;
+}
+nav{
     background-color: black;
 }
