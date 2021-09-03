@@ -3,13 +3,18 @@
     padding: 0;
 }
 
-section{
-    background-color: rgb(240, 207, 167);
+.sectiona{
+    background-color: #f58c77;
 }
+.sectionb{
+    background-color: #ffe5a0;
+}
+
 footer{
     align-content: center;
-    background-color: lightgrey;
+    background-color: #27305b;
 }
 nav{
-    background-color: lightgrey;
+    background-color: #27305b;
+
 }
