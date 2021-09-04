@@ -4,20 +4,40 @@
 }
 
 nav{
+    padding:20px;
     background-color: #27305b;
+    font-family: 'Spartan', sans-serif;
+    position:fixed;
+    color:#f58c77;
+
 
 }
+
 
 .arta{
+    padding:200px;
     background-color: #f58c77;
+    font-family: 'Spartan', sans-serif;
+
 }
 .artb{
+    padding:200px;
     background-color: #ffe5a0;
+    font-family: 'Spartan', sans-serif;
 }
 
 footer{
+    padding: 20px;
     text-align: center;
     background-color: #27305b;
 }
 
+#ifoo{
+    font-size: 40px;
+    color:#ffe5a0;
+}
+
+a{
+    padding:10px;
+}
 
