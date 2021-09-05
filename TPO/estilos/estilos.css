@@ -5,12 +5,20 @@
 
 nav{
     padding:20px;
+    width:100%;
     background-color: #27305b;
     font-family: 'Spartan', sans-serif;
     position:fixed;
-    color:#f58c77;
 
-
+}
+#name-logo{
+    font-size: 20px;
+    color:#ffe5a0;
+    text-decoration:none;
+}
+.item{
+    color:#ffe5a0;
+    text-decoration:none;
 }
 
 
@@ -41,3 +49,29 @@ a{
     padding:10px;
 }
 
+h1{
+    font-size: 30px;
+    color:#27305b;
+
+}
+h3{
+    color:#ffe5a0;
+}
+
+.subtitulos{
+    padding:10px;
+    background:#27305b;
+    color:#ffe5a0;
+    font-size:20px;
+}
+
+
+
+#foto{
+    display: inline-block;
+    position:static;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
