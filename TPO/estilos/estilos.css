@@ -12,15 +12,19 @@ nav{
 
 }
 #name-logo{
-    font-size: 20px;
+    font-size: 22px;
     color:#ffe5a0;
     text-decoration:none;
 }
 .item{
     color:#ffe5a0;
     text-decoration:none;
+    font-size:17px;
 }
-
+p{
+    color:#27305b;
+    font-size: 17px;
+}
 
 .arta{
     padding:200px;
