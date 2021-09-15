@@ -12,6 +12,7 @@ nav{
 }
 
 nav a{
+   position: relative;
     padding 5px;
     width:20%;
 }
