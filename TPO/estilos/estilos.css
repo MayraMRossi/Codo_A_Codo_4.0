@@ -13,9 +13,10 @@ nav{
 
 nav a{
    position: relative;
-    padding 5px;
+    padding 10px;
     width:20%;
 }
+
 #name-logo{
     font-size: 22px;
     color:#ffe5a0;
