@@ -38,6 +38,7 @@ nav a{
     font-family: 'Spartan', sans-serif;
     color:#27305b;
     font-size: 17px;
+    width:100%;
 }
 .artb{
     padding:150px;
@@ -45,6 +46,7 @@ nav a{
     font-family: 'Spartan', sans-serif;
     color:#27305b;
     font-size: 17px;
+    width:100%;
 }
 
 footer{
