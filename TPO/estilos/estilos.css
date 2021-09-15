@@ -5,8 +5,8 @@
 }
 
 nav a{
-    padding:20px;
-    width:100%;
+    padding 5px;
+    width:20%;
     background-color: #27305b;
     font-family: 'Spartan', sans-serif;
     position:fixed;
