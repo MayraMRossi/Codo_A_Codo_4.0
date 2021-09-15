@@ -1,23 +1,97 @@
+ 
 *{
     margin: 0;
     padding: 0;
 }
 
 nav{
+    padding:20px;
+    width:100%;
     background-color: #27305b;
+    font-family: 'Spartan', sans-serif;
+    position:fixed;
 
 }
+#name-logo{
+    font-size: 22px;
+    color:#ffe5a0;
+    text-decoration:none;
+}
+.item{
+    color:#ffe5a0;
+    text-decoration:none;
+    font-size:17px;
+}
+
 
 .arta{
+    padding:150px;
     background-color: #f58c77;
+    font-family: 'Spartan', sans-serif;
+    color:#27305b;
+    font-size: 17px;
 }
 .artb{
+    padding:150px;
     background-color: #ffe5a0;
+    font-family: 'Spartan', sans-serif;
+    color:#27305b;
+    font-size: 17px;
 }
 
 footer{
+    padding: 20px;
     text-align: center;
     background-color: #27305b;
 }
 
+#ifoo{
+    font-size: 40px;
+    color:#ffe5a0;
+}
 
+a{
+    padding:10px;
+}
+
+h1{
+    font-size: 40px;
+    color:#27305b;
+
+}
+h3{
+    color:#ffe5a0;
+    font-size:22px;
+}
+
+.subtitulos{
+    padding:10px;
+    background:#27305b;
+    color:#ffe5a0;
+    font-size:20px;
+    float:left;
+    margin-right:40px;
+    
+}
+
+
+
+#foto{
+    
+    margin-right: 40px;
+    display: inline-block;
+    position:static;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.no_espacios{
+    margin:0;
+    padding:0;
+}
+li{
+    
+    list-style:none;
+}
