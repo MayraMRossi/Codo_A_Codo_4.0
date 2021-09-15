@@ -3,14 +3,17 @@
     margin: 0;
     padding: 0;
 }
+nav{
+  background-color: #27305b;
+  position:fixed;
+  width: 100%,;
+  font-family: 'Spartan', sans-serif;
+  
+}
 
 nav a{
     padding 5px;
     width:20%;
-    background-color: #27305b;
-    font-family: 'Spartan', sans-serif;
-    position:fixed;
-
 }
 #name-logo{
     font-size: 22px;
