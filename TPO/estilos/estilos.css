@@ -16,7 +16,8 @@ nav{
 nav a{
   box-sizing: border-box;
   position: relative;
-  padding:2vw 4vw;
+  margin-top: 2vw;
+  padding:2vw 2vw;
   width:20%;
 }
 
