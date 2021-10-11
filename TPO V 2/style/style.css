@@ -52,8 +52,60 @@ header{
         align-content: center;
         list-style:none;
     }
-        header h3{
-            margin: 5px;
+
+        header li{
+            margin: 3px;
             color:white;
             text-align: center;
+            text-shadow: 1px 1px black;
+            display: block;
+            padding: 10px 20px;
+            border-bottom: 2px solid #456789;
+            max-width: 400px;
+            background: #234567;
         }
+
+/* menu Hamburguesa */
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .respmenu .fa-bars, .respmenu .fa-times {
+    font-size: 30px;
+    pointer-events: none;
+  }
+  
+  .respmenu input[type="checkbox"] {
+    opacity: 0;
+  }
+  
+  .respmenu {
+    color: white;
+    position: relative;
+    background: #123456;
+    min-height: 30px;
+  }
+  
+  .respmenu nav {
+    display: none;
+  }
+  
+  .respmenu input:checked ~ nav {
+    display: block;
+  }
+  
+  .respmenu input:checked ~ .fa-bars {
+    display: none;
+  }
+  
+  .respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+  }
+                
+
