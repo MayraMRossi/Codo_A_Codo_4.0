@@ -43,7 +43,7 @@
 header{
     background-color: #27305b;
     padding:10px;
-    position: ;
+
     
 }
     header ul{
@@ -73,49 +73,49 @@ header{
 
     }
 
-/* menu Hamburguesa */
+  /* menu Hamburguesa */
 
-.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
-    position: absolute; /* Posiciona el icono hamburguesa y cruz */
-    right: 0;/* Posiciona el icono hamburguesa y cruz */
-    top: 0;/* Posiciona el icono hamburguesa y cruz */
-    width: 30px;/* Posiciona el icono hamburguesa y cruz */
-    height: 30px;/* Posiciona el icono hamburguesa y cruz */
-  }
-  
-  .respmenu .fa-bars, .respmenu .fa-times {
-    font-size: 30px;  /* le da tamaño al icono hamburguesa y cruz */
-    pointer-events: none; /* Desbloquea el click del boton hamburguesa */
-  }
-  
-  .respmenu input[type="checkbox"] {
-    opacity: 0; /* oculta el checkbox original */
-  }
-  
-  .respmenu {
-    color: white;/* le da color al icono hamburguesa */
-    position: relative;/* posiciona el icono hamburguesa */
-    min-height: 30px;/* le da el tamaño de la barrita cerrada */
-  }
-  
-  .respmenu nav {
-    display: none;/* le da el movimiento de abrir y cerrar */
-  }
-  
-  .respmenu input:checked ~ nav {
-    display: block; /* extiende los elementos */
-  }
-  
-  .respmenu input:checked ~ .fa-bars {
-    display: none; /* oculta el icono hamburguesa cuando se extiende */
-  }
-  
-  .respmenu input:not(:checked) ~ .fa-times {
-    display: none; /* oculta el icono cruz cuando esta cerrada */
-  }
-                
-
-}
+  .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+      position: absolute; /* Posiciona el icono hamburguesa y cruz */
+      right: 0;/* Posiciona el icono hamburguesa y cruz */
+      top: 0;/* Posiciona el icono hamburguesa y cruz */
+      width: 30px;/* Posiciona el icono hamburguesa y cruz */
+      height: 30px;/* Posiciona el icono hamburguesa y cruz */
+    }
     
+    .respmenu .fa-bars, .respmenu .fa-times {
+      font-size: 30px;  /* le da tamaño al icono hamburguesa y cruz */
+      pointer-events: none; /* Desbloquea el click del boton hamburguesa */
+    }
+    
+    .respmenu input[type="checkbox"] {
+      opacity: 0; /* oculta el checkbox original */
+    }
+    
+    .respmenu {
+      color: white;/* le da color al icono hamburguesa */
+      position: relative;/* posiciona el icono hamburguesa */
+      min-height: 30px;/* le da el tamaño de la barrita cerrada */
+    }
+    
+    .respmenu nav {
+      display: none;/* le da el movimiento de abrir y cerrar */
+    }
+    
+    .respmenu input:checked ~ nav {
+      display: block; /* extiende los elementos */
+    }
+    
+    .respmenu input:checked ~ .fa-bars {
+      display: none; /* oculta el icono hamburguesa cuando se extiende */
+    }
+    
+    .respmenu input:not(:checked) ~ .fa-times {
+      display: none; /* oculta el icono cruz cuando esta cerrada */
+    }
+                  
+
+  }
+      
 
 
