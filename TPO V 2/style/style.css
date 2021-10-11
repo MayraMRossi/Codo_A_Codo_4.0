@@ -49,7 +49,7 @@ header{
     header ul{
         display:flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
         align-content: center;
         list-style:none;
     }
@@ -66,6 +66,12 @@ header{
             grid-template-columns: 1fr 4fr;
             text-decoration:none;/* Elimina el subrayado */
         }
+
+@media all and (max-width: 800px){
+    header ul{
+        flex-direction: column;
+
+    }
 
 /* menu Hamburguesa */
 
@@ -108,4 +114,8 @@ header{
     display: none; /* oculta el icono cruz cuando esta cerrada */
   }
                 
+
+}
+    
+
 
