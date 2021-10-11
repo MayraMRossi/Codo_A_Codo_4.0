@@ -43,6 +43,10 @@
 header{
     background-color: #27305b;
     padding:10px;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color:white;
 
     
 }
