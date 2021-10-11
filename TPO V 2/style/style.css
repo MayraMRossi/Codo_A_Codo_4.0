@@ -27,7 +27,6 @@
     display:grid;
     grid-template-columns: repeat(1,1fr);
     align-content: center;
-    background-color:aqua;
     gap: 10px;
 }
 
@@ -38,3 +37,22 @@
     overflow: hidden;
     border-radius: 50%;
 }
+
+/* Formato de los elementos */
+header{
+    background-color: #27305b;
+    
+}
+    header ul{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        list-style:none;
+    }
+        header h3{
+        margin: 15px;
+        color:white;
+        font-family: 'Spartan', sans-serif;
+        text-align: center;
+        }
