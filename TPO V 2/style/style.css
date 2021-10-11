@@ -46,11 +46,19 @@ header{
 
     
 }
+    .boton{
+      opacity: 0;
+      height: 0px;
+      margin: 0px;
+      width: 0px;
+    }
+
     header ul{
         display:flex;
         flex-wrap: wrap;
         flex-direction: row;
         align-content: center;
+        justify-content:center;
         list-style:none;
     }
 
