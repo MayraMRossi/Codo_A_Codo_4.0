@@ -76,6 +76,10 @@ header{
         }
 
 @media all and (max-width: 800px){
+
+    .boton{
+      opacity: 1;
+    }
     header ul{
         flex-direction: column;
     }
