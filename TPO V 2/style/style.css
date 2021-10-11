@@ -1,0 +1,40 @@
+
+/* Diseñado como mobile first para index.html */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Contenedores para grids */
+.cont-1{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    align-content: center;
+}
+.cont-2{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    align-content: center;
+}
+.cont-3{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    align-content: center;
+    
+}
+.cont-4{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    align-content: center;
+    background-color:aqua;
+    gap: 10px;
+}
+
+/* Formato de la foto circular */
+#foto{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
