@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
 }
 /* Contenedores para grids */
 .cont-1{
@@ -51,9 +52,7 @@ header{
         list-style:none;
     }
         header h3{
-            
-        margin: 15px;
-        color:white;
-        font-family: 'Spartan', sans-serif;
-        text-align: center;
+            margin: 10px;
+            color:white;
+            text-align: center;
         }
