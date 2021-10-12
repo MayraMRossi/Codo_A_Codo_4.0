@@ -64,6 +64,7 @@ header{
         align-content: center;
         justify-content:center;
         list-style:none;
+        /* font-size:  15px; */
     }
 
         header a{
@@ -71,7 +72,7 @@ header{
             color:white;
             text-align: left;
             text-shadow: 1px 1px black;
-            padding: 10px 30px;
+            padding: 8px 30px;
             max-width: 400px;
             background: #234567;
             display:grid;
@@ -79,9 +80,9 @@ header{
             text-decoration:none;/* Elimina el subrayado */
         }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 768px){
     header h1{
-      font-size: 20px;
+      font-size: 25px;
     }
     .boton{
       opacity: 1;
@@ -135,4 +136,23 @@ header{
   }
       
 
+  @media all and (max-width: 480px){
+    
+    header h1{
+      font-size: 20px;
+    }
 
+    /* Tamaño del icono del menú hamburguesa */
+    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+      width: 20px;/* Posiciona el icono hamburguesa y cruz */
+      height: 20px;/* Posiciona el icono hamburguesa y cruz */
+    }
+    .respmenu .fa-bars, .respmenu .fa-times {
+      font-size: 20px;  /* le da tamaño al icono hamburguesa y cruz */
+    }
+    .respmenu {
+      min-height: 20px;/* le da el tamaño de la barrita cerrada */
+    }
+    
+
+  }
