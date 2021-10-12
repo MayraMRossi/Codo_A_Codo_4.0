@@ -68,7 +68,7 @@ header{
     }
 
         header a{
-            /* margin: 3px; */
+            margin: 3px;
             color:white;
             text-align: left;
             text-shadow: 1px 1px black;
