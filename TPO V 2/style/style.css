@@ -24,6 +24,7 @@
     align-content: center;
     
 }
+
 .cont-4{
     display:grid;
     grid-template-columns: repeat(1,1fr);
