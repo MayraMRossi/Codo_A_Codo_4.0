@@ -61,7 +61,7 @@ header{
         flex-wrap: nowrap;
         flex-direction: row;
         align-content: center;
-        justify-content:left;
+        justify-content:right;
         list-style:none;
         font-size:10px;
     }
@@ -100,7 +100,7 @@ header{
     padding:5%;
     }
 
-    main .fotoynombre{
+    .fotoynombre{
       display:flex;
       flex-direction: column;
       text-align: center;
@@ -111,16 +111,24 @@ header{
     }
 
       .fotoynombre h1{
+        font-size: 2rem;
         color:#27305b;
+        padding: 2px;
       }
       .fotoynombre h3{
         color:#ffe5a0;
       }
 
-    main .sobre_mi{
+    .sobre_mi{
       padding:0% 10%;
       text-align: justify;
     }
+
+      .sobre_mi h2{
+        color:#27305b;
+        padding: 30px 0px;
+        font-size: 2.25rem;
+      }
 
       .sobre_mi p{
         color:#27305b;
@@ -133,6 +141,19 @@ header{
     align-items: center;
     gap: 10px;
   }
+
+
+
+
+  /* FOOTER */
+  footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #27305b;
+    width:100%;
+  }
+
+    
 
 
 
@@ -172,14 +193,18 @@ header{
       opacity:1;
     }
 
-    main .fotoynombre{
-      padding:50px;
+    .fotoynombre{
+      padding:50px 0 30px 0;
+    }
+    
+
+    .sobre_mi{
+      padding:0%;
     }
 
-
-    main .sobre_mi{
-      padding:5% 0%;
-    }
+      .sobre_mi h2{
+        padding: 30px 0px;
+      }
 
 
     /* Acciones responsivas */
