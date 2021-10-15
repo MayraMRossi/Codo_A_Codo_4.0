@@ -134,6 +134,24 @@ header{
         color:#27305b;
       }
 
+      .sobre_mi .btn_cv{
+        color:#f58c77;
+        text-decoration: none;
+        border: 1px solid;
+        padding: 9px;
+        margin-top: 20px;
+        max-width: 240px;
+        border-radius: 8px;
+        background-color: #ffe5a0;
+        display:grid;
+        text-align: center;
+        grid-template-columns: 1fr 10fr;
+        } 
+          .sobre_mi .btn_cv:hover{
+            background-color: #27305b;
+            cursor:pointer;
+          }
+
   .cont-4{
     display:grid;
     grid-template-columns: repeat(1,1fr);
@@ -141,6 +159,8 @@ header{
     align-items: center;
     gap: 10px;
   }
+
+
 
 
 
