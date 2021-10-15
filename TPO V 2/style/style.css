@@ -109,6 +109,14 @@ header{
     .boton{
       opacity:1;
     }
+
+    /* Acciones responsivas */
+    .cont-3{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      align-content: center;
+      
+  }
     
 
   /* menu Hamburguesa */
