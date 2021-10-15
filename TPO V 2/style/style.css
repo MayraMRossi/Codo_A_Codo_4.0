@@ -7,29 +7,11 @@
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
 }
-/* Contenedores para grids */
+/* Contenedor de toda la pagina */
 .cont-1{
     display:grid;
     grid-template-columns: repeat(1,1fr);
     align-content: center;
-}
-.cont-2{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
-    align-content: center;
-}
-.cont-3{
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-    align-content: center;
-    
-}
-
-.cont-4{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
-    align-content: center;
-    gap: 10px;
 }
 
 /* Formato de la foto circular */
@@ -48,11 +30,13 @@ header{
     background-color: #27305b;
     padding:10px;
     color:white; 
-     
-    
+    padding:2% 10%;
+
 }
+
     header h1{
       font-size: 30px;
+      text-align: center;
       
     }
     /* Desaparecer los iconos del menú responsivo */
@@ -90,11 +74,36 @@ header{
         }
 
 /* main */
+.cont-2{
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  align-content: center;
+}
+  .cont-3{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    align-content: center;
+    align-items: center;
+    background-color: #f58c77;
+    padding:10%;
+    
+  }
 
-    .cont-3{
-      background-color: #f58c77;
-      padding:10% 10vw;
-    }
+  .cont-4{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+
+        main .fotoynombre{
+          text-align: center;
+          margin: 5%;
+        }
+
 
 
 
@@ -118,8 +127,7 @@ header{
     .cont-3{
       display:grid;
       grid-template-columns: 1fr;
-      align-content: center;
-      
+      align-content: center; 
   }
     
 
