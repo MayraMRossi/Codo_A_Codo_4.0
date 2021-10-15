@@ -30,6 +30,8 @@ header{
     background-color: #27305b;
     padding:10px;
     color:white; 
+    position:fixed;/* Fija el header */
+    width:100%;
 }
 
   header .respmenu{
@@ -142,11 +144,12 @@ header{
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: 10px;
     }
 
 
     header a{
-      max-width: 110px;
+      width: 150px;
     }
 
     .boton{
@@ -217,7 +220,7 @@ header{
   @media all and (max-width: 480px){
     
     header h1{
-      font-size: 15px;
+      font-size: 18px;
     }
 
     /* Tamaño del icono del menú hamburguesa */
