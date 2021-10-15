@@ -192,7 +192,20 @@ header{
     background-color: #27305b;
     width:100%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 12px 12px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
   }
+
+    footer i{
+      font-size: 30px;
+      margin:10px;
+      text-decoration: none;
+      color:#ffe5a0;
+    }
+
+    footer i:visited{
+      color:#ffe5a0;
+      text-decoration: none;
+    }
 
     
 
