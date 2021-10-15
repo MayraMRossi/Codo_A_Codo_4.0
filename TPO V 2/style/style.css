@@ -47,7 +47,8 @@
 header{
     background-color: #27305b;
     padding:10px;
-    color:white;  
+    color:white; 
+     
     
 }
     header h1{
@@ -92,7 +93,11 @@ header{
 
     .cont-3{
       background-color: #f58c77;
+      padding:10% 10vw;
     }
+
+      .fotoynombre{
+      }
 
 
 
@@ -113,7 +118,7 @@ header{
     /* Acciones responsivas */
     .cont-3{
       display:grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       align-content: center;
       
   }
