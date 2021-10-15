@@ -53,11 +53,9 @@ header{
       font-size: 30px;
       
     }
+    /* Desaparecer los iconos del menú responsivo */
     .boton{
-      opacity: 0;
-      height: 0px;
-      margin: 0px;
-      width: 0px;
+      display: none;
     }
 
 
@@ -86,8 +84,7 @@ header{
 
         header a:hover{
           background: #2d353d;
-
-      }
+        }
 
 /* main */
 
@@ -101,9 +98,7 @@ header{
     header h1{
       font-size: 25px;
     }
-    .boton{
-      opacity: 1;
-    }
+
     header ul{
         flex-direction: column;
         align-content: center;
@@ -114,6 +109,7 @@ header{
   /* menu Hamburguesa */
 
   .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    display:inline;
       position: absolute; /* Posiciona el icono hamburguesa y cruz */
       right: 0;/* Posiciona el icono hamburguesa y cruz */
       top: 0;/* Posiciona el icono hamburguesa y cruz */
@@ -142,6 +138,7 @@ header{
     
     .respmenu input:checked ~ nav {
       display: block; /* extiende los elementos */
+      
     }
     
     .respmenu input:checked ~ .fa-bars {
