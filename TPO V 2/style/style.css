@@ -78,7 +78,7 @@ header{
             background: #234567;
             white-space: nowrap;
             display:grid;
-            grid-template-columns: 1fr 4fr;
+            grid-template-columns: 1fr 3fr;
             gap:3px;
             text-decoration:none;/* Elimina el subrayado */
             box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
@@ -87,6 +87,7 @@ header{
         header a:hover{
           background: #2d353d;
         }
+  
 
 /* main */
 .cont-2{
@@ -136,28 +137,40 @@ header{
       .sobre_mi p{
         color:#27305b;
       }
-      .sobre_mi a{
-        max-width: 240px;
-      }
-
-      .sobre_mi .btn_cv{
-        color:#f58c77;
-        text-decoration: none;
-        border: 1px solid;
-        padding: 9px;
-        margin-top: 20px;
-        max-width: 240px;
-        border-radius: 8px;
-        background-color: #27305b;
-        
+      .sobre_mi .btn_cv a{
+        max-width: 250px;
         display:grid;
         text-align: center;
         grid-template-columns: 1fr 10fr;
+        text-decoration: none;
+      }
+
+      .sobre_mi .btn_cv{
+        color:#27305b;
+        text-decoration: none;
+        border: 2px solid;
+        padding: 9px;
+        margin-top: 20px;
+        max-width: 250px;
+        border-radius: 8px;
+        background-color: #f58c77;
         } 
+
+          .sobre_mi a:visited{
+            color:#27305b;
+            text-decoration: none;
+            cursor:pointer; 
+            background-color: #27305b;       
+
+          }
           .sobre_mi .btn_cv:hover{
             background-color: #ffe5a0;
+            color:#27305b;
             cursor:pointer;
           }
+
+
+
 
   .cont-4{
     display:grid;
