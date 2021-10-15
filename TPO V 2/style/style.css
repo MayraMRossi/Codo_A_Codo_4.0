@@ -136,9 +136,10 @@ header{
     }
 
     header ul{
-        flex-direction: column;
-        align-content: center;
-        justify-content:center;
+      flex-direction: column;
+      align-content: center;
+      justify-content:center;
+      margin:auto;
     }
 
     .boton{
