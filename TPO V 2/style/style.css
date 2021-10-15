@@ -84,6 +84,11 @@ header{
             text-decoration:none;/* Elimina el subrayado */
         }
 
+        header a:hover{
+          background: #2d353d;
+
+      }
+
 /* main */
 
     .cont-3{
