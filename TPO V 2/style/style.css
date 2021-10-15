@@ -45,8 +45,8 @@ header{
       font-size: 20px;
       text-align: center;
       min-width: 260px;
-      
     }
+
     /* Desaparecer los iconos del menú responsivo */
     .boton{
       display: none;
@@ -93,8 +93,8 @@ header{
     align-items: center;
     background-color: #f58c77;
     padding:5%;
+    }
     
-  }
     main .fotoynombre{
       display:flex;
       flex-direction: column;
