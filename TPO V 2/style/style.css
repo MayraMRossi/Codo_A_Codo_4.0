@@ -30,12 +30,18 @@ header{
     background-color: #27305b;
     padding:10px;
     color:white; 
-
-
 }
 
+  header .respmenu{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-content: center;
+    align-items: center;
+    
+  }
+
     header h1{
-      font-size: 30px;
+      font-size: 20px;
       text-align: center;
       
     }
@@ -45,15 +51,14 @@ header{
       opacity:0;
     }
 
-
     header ul{
         display:flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: row;
         align-content: center;
-        justify-content:center;
+        justify-content:left;
         list-style:none;
-        font-size:15px;
+        font-size:10px;
     }
 
         header a{
@@ -119,8 +124,15 @@ header{
 
 
 @media all and (max-width: 768px){
+
     header h1{
       font-size: 25px;
+    }
+
+    header .respmenu{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      
     }
 
     header ul{
