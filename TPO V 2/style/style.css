@@ -133,6 +133,9 @@ header{
       .sobre_mi p{
         color:#27305b;
       }
+      .sobre_mi a{
+        max-width: 240px;
+      }
 
       .sobre_mi .btn_cv{
         color:#f58c77;
