@@ -29,7 +29,7 @@
 header{
     background-color: #27305b;
     padding:10px;
-    color:white; 
+    color:#ffe5a0;
     position:fixed;/* Fija el header */
     width:100%;
 }
@@ -68,7 +68,7 @@ header{
 
         header a{
             margin: 3px;
-            color:white;
+            color:#ffe5a0;
             text-align: left;
             text-shadow: 1px 1px black;
             padding: 8px 10px;
@@ -105,14 +105,26 @@ header{
       flex-direction: column;
       text-align: center;
       margin: 0px;
-      padding: 200px 0px;
+      padding: 100px 0px;
       align-content: center;
       align-items: center;
     }
+
+      .fotoynombre h1{
+        color:#27305b;
+      }
+      .fotoynombre h3{
+        color:#ffe5a0;
+      }
+
     main .sobre_mi{
       padding:0% 10%;
       text-align: justify;
     }
+
+      .sobre_mi p{
+        color:#27305b;
+      }
 
   .cont-4{
     display:grid;
@@ -200,7 +212,7 @@ header{
     }
     
     .respmenu {
-      color: white;/* le da color al icono hamburguesa */
+      color:#ffe5a0;/* le da color al icono hamburguesa */
       position: relative;/* posiciona el icono hamburguesa */
       min-height: 20px;/* le da el tamaño de la barrita cerrada */
     }
