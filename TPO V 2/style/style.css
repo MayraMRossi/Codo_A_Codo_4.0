@@ -175,6 +175,7 @@ header{
       display:grid;
       grid-template-columns: 1fr;
       align-content: center; 
+      min-width: 383px;
   }
     
 
