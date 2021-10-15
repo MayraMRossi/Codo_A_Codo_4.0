@@ -36,7 +36,7 @@ header{
 
   header .respmenu{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 0.1fr 0.1fr 3fr ;
     align-content: center;
     align-items: center;
     padding:0% 5%;
@@ -46,13 +46,14 @@ header{
     header h1{
       font-size: 20px;
       text-align: center;
-      min-width: 260px;
+      min-width: 250px;
     }
 
     /* Desaparecer los iconos del menú responsivo */
     .boton{
       display: none;
       opacity:0;
+      
     }
 
     header ul{
