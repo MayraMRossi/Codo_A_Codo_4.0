@@ -1,5 +1,5 @@
 
-/* Diseñado como mobile first para index.html */
+/* Diseñado desktop first */
 
 *{
     margin: 0px;
@@ -273,7 +273,13 @@ header{
       text-decoration: none;
     }
 
-    
+/* Formulario de Contacto */
+    form{
+      position:static;
+      padding-top: 70px;
+      background-color: #ffe5a0;
+      min-height: 500px;
+    }
 
 
 
