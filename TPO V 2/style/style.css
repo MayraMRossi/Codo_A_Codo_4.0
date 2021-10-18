@@ -229,7 +229,7 @@ header{
     }
 
 
-    footer a{
+    footer .contact a{
       font-size: 15px;
       text-decoration: none;
       color:#ffe5a0;
@@ -239,7 +239,7 @@ header{
       min-width: 300px;
       margin:5px;
     }
-    footer a:visited{
+    footer .contact a:visited{
       color:#ffe5a0;
       text-decoration: none;
     }
@@ -247,11 +247,30 @@ header{
       footer h4{
         text-align: left;
       }
+    
+    .powered{
+      display:grid;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
 
-    footer h5{
+
+    footer .powered a{
       color:#f58c77;
       text-align: center;
       margin: 15px;
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      max-width: 300px;
+      text-decoration: none;
+    }
+
+    footer .powered a:visited{
+      color:#f58c77;
+      text-align: center;
+      margin: 15px;
+      text-decoration: none;
     }
 
 
@@ -355,6 +374,9 @@ header{
     .respmenu input:not(:checked) ~ .fa-times {
       display: none; /* oculta el icono cruz cuando esta cerrada */
     }
+    .contact{
+
+      grid-template-columns: 1fr;
                   
 
   }
