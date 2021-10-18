@@ -32,7 +32,7 @@
                 </nav>
             </div>
         </header>
-        <form name="submit-form">
+        <form name="submit-form" id="myForm">
             <div class="cont-5">
                 <h2>Enviame tu consulta:</h2>
                 <label id="L_NyA" >Nombre y Apellido:</label>
@@ -46,7 +46,7 @@
                 
             </div>
             <div class="cont-7">
-                <input type="Submit" value="Enviar">
+                <input type="submit" value="Enviar">
                 <input type="Reset" value="Borrar todo">
             </div>
 
@@ -70,6 +70,7 @@
         </footer>
     </div>
     <script>
+        /* se puede visualizar la informacion que se carga en la siguiente planilla: https://docs.google.com/spreadsheets/d/1_DWHeWmm1zkM1NuA9CMb7pG8zvszTxbd9Nr7AMaS2lo/edit?usp=sharing */
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxeSb2vyBylGqsgbqbbeBSOWZo6NYtiulXPvKL7GFwPH-kc2r7D1TxZiHboPTNu11JI/exec'
         const form = document.forms['submit-form']
 
@@ -78,6 +79,7 @@
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => console.log('Success!', response))
             .catch(error => console.error('Error!', error.message))
+            document.forms['submit-form'].reset()
         })
 
     </script>
