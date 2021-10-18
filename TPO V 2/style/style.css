@@ -82,7 +82,8 @@ header{
             gap:3px;
             text-decoration:none;/* Elimina el subrayado */
             box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-        }
+            font-size: 11px;
+          }
 
         header a:hover{
           background: #2d353d;
@@ -202,31 +203,55 @@ header{
 
   /* FOOTER */
   footer{
-    text-align: center;
     background-color: #27305b;
-    width:100%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 12px 12px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    justify-content: center;
   }
 
-
-    footer i{
-      font-size: 30px;
-      margin:10px;
-      text-decoration: none;
-      color:#ffe5a0;
+    .contenido{
+      display: grid;
+      justify-content: center;
     }
 
-    footer i:visited{
+
+    footer h3{
+      color: #f58c77;
+      font-size: 18px;
+      margin: 15px;
+    }
+
+    .contact{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      margin: 5px;
+    }
+
+
+    footer a{
+      font-size: 15px;
+      text-decoration: none;
+      color:#ffe5a0;
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      text-align: center;
+      min-width: 300px;
+      margin:5px;
+    }
+    footer a:visited{
       color:#ffe5a0;
       text-decoration: none;
     }
+
+      footer h4{
+        text-align: left;
+      }
 
     footer h5{
-      padding:20px 50px;
       color:#f58c77;
-      text-align: right;
+      text-align: center;
+      margin: 15px;
     }
 
 
