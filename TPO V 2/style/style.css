@@ -83,11 +83,20 @@ header{
     
   }
 
+    header .home{
+      text-decoration:none;
+    }
+    header .home:visited{
+      text-decoration:none;
+      color:#ffe5a0;
+    }
+
     header h1{
       font-size: 20px;
       text-align: center;
       min-width: 250px;
     }
+    
 
     /* Desaparecer los iconos del menú responsivo */
     .boton{
@@ -106,7 +115,7 @@ header{
         font-size:10px;
     }
 
-        header a{
+        header nav a{
             margin: 3px;
             color:#ffe5a0;
             text-align: left;
@@ -123,7 +132,7 @@ header{
             font-size: 11px;
           }
 
-        header a:hover{
+        header nav a:hover{
           background: #2d353d;
         }
   
