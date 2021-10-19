@@ -199,6 +199,7 @@ header{
         text-align: center;
         grid-template-columns: 1fr 10fr;
         text-decoration: none;
+        color:#27305b;
       }
 
       .sobre_mi .btn_cv{
