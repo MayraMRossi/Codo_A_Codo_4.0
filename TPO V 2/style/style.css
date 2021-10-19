@@ -390,13 +390,14 @@ header{
 }
 
     form{
-      padding: 0% 20%;
+      padding: 0% 10%;
       background-color: #ffe5a0;
       display:grid;
-      grid-template-columns: 1fr 3fr;
+      grid-template-columns: 1fr 1fr;
       justify-content: center;
       align-items: center;
       align-content: center;
+      justify-items: center;
     }
 
       form h2{
@@ -419,7 +420,8 @@ header{
         padding: 5px;
         font-size: 13px;
         border-radius: 2px;
-        min-width: 400px;
+        max-width: 500px;
+        
       }
 
       .cont-7 input{
@@ -452,7 +454,8 @@ header{
 /* Media queries */
 
 
-@media all and (max-width: 768px){
+@media all and (max-width: 800px){
+
 
   form{
     grid-template-columns: 1fr;
@@ -576,5 +579,8 @@ header{
 
   @media all and (max-width: 480px){
 
+    .cont-5 input,.cont-5 textarea{
+      min-width: 200px;
+    }
   
   }
