@@ -308,7 +308,8 @@ header{
 
   /* FOOTER */
   footer{
-    background-image: url("https://media.giphy.com/media/xUPGcshrKRahaS8ef6/giphy.gif");
+    background-image: url("https://media.giphy.com/media/xUPGcshrKRahaS8ef6/giphy.gif"); 
+    background-color: #27305b;  
     box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 12px 12px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: grid;
     justify-content: center;
@@ -323,6 +324,7 @@ header{
       color: #f58c77;
       font-size: 18px;
       margin: 15px;
+
     }
 
     .contact{
