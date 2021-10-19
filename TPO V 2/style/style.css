@@ -419,6 +419,7 @@ header{
         padding: 5px;
         font-size: 13px;
         border-radius: 2px;
+        min-width: 400px;
       }
 
       .cont-7 input{
