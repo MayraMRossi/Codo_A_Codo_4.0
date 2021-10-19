@@ -76,7 +76,7 @@ header{
 
   header .respmenu{
     display: grid;
-    grid-template-columns: 1fr 0.1fr 0.1fr 3fr ;
+    grid-template-columns: 1fr 0.1fr 0.1fr 2fr ;
     align-content: center;
     align-items: center;
     padding:0% 5%;
@@ -121,12 +121,12 @@ header{
             text-align: left;
             text-shadow: 1px 1px black;
             padding: 8px 10px;
-            max-width: 110px;
+            max-width: 120px;
             background: #234567;
             white-space: nowrap;
             display:grid;
             grid-template-columns: 1fr 3fr;
-            gap:3px;
+            gap:10px;
             text-decoration:none;/* Elimina el subrayado */
             box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
             font-size: 11px;
@@ -173,7 +173,7 @@ header{
       }
 
     .sobre_mi{
-      padding:0% 10%;
+      padding:0% 0% 0% 10%;
       text-align: justify;
     }
 
@@ -263,7 +263,7 @@ header{
       display: grid;
       grid-template-columns: 1fr 1fr;
       justify-content: center;
-      margin: 5px;
+      margin-bottom: 10px;
     }
 
     footer .contact a{
@@ -395,6 +395,10 @@ header{
 
     header a{
       width: 150px;
+    }
+    
+    header h3{
+      text-align: left;
     }
 
     .boton{
