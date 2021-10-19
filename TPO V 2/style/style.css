@@ -426,21 +426,6 @@ header{
       
 
   @media all and (max-width: 480px){
-    
-    header h1{
-      font-size: 18px;
-    }
 
-    /* Tamaño del icono del menú hamburguesa */
-    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
-      width: 15px;/* Posiciona el icono hamburguesa y cruz */
-      height: 15px;/* Posiciona el icono hamburguesa y cruz */
-    }
-    .respmenu .fa-bars, .respmenu .fa-times {
-      font-size: 15px;  /* le da tamaño al icono hamburguesa y cruz */
-    }
-    .respmenu {
-      min-height: 15px;/* le da el tamaño de la barrita cerrada */
-    }
-    
+  
   }
