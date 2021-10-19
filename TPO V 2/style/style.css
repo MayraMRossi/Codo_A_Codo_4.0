@@ -235,15 +235,61 @@ header{
         font-size: 2.25rem;   
       }
 
+
       .formacion{
         background-color: #f58c77;
         padding:5%;
       }
 
-      .formacion h2{
-        color:#27305b;
-        font-size: 2.25rem;   
-      }
+        .formacion h2{
+          color:#27305b;
+          font-size: 2.25rem;   
+        }
+        .formacion .UNSAM1{
+          grid-area: UNSAM1;
+        }
+        .formacion .UNSAM2{
+          grid-area: UNSAM2;
+        }
+        .formacion .PROF{
+          grid-area: PROF;
+        }
+        .formacion .SEC{
+          grid-area: SEC;
+        }
+
+        .formacion .academico{
+          display:grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap:10px;
+          grid-template-areas: 'UNSAM1 UNSAM1'
+                               'UNSAM2 UNSAM2'
+                               'PROF SEC';
+        }
+        .formacion .mod{
+          display:grid;
+          grid-template-columns: 1fr 5fr;
+        }
+          .formacion i{
+            color:
+          }
+          .formacion h3{
+            color: #27305b;
+
+          }
+          .formacion h4{
+            color: #27305b;
+          }
+          .formacion h5{
+            color: #27305b;
+            border-color: #27305b;
+            border-radius: 4px;
+            padding: 5px;
+            max-width: max-content;
+            border: 2px solid;
+          }
+
+
 
 
   /* FOOTER */
