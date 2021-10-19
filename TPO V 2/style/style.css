@@ -259,22 +259,35 @@ header{
         }
 
         .formacion .academico{
+          padding:40px 0px;
           display:grid;
-          grid-template-columns: repeat(2, 1fr);
-          gap:10px;
+          
+          gap:40px;
           grid-template-areas: 'UNSAM1 UNSAM1'
                                'UNSAM2 UNSAM2'
                                'PROF SEC';
         }
         .formacion .mod{
-          display:grid;
-          grid-template-columns: 1fr 5fr;
+          display:flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          background-color:#ffe5a0;
+          padding:20px;
+          border-radius: 10px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         }
           .formacion i{
-            color:
+            color:#f58c77;
+            padding-right: 19px;
+            text-shadow: 2px 2px 4px #234567;
+            font-size: 18px;
           }
+
+
           .formacion h3{
             color: #27305b;
+            padding-bottom: 10px;
+            
 
           }
           .formacion h4{
@@ -287,6 +300,7 @@ header{
             padding: 5px;
             max-width: max-content;
             border: 2px solid;
+            margin-top: 10px;
           }
 
 
@@ -362,6 +376,8 @@ header{
       text-decoration: none;
   
     }
+
+    
 
 /* Formulario de Contacto */
 .Cont-6{
@@ -477,6 +493,13 @@ header{
       grid-template-columns: 1fr;
       align-content: center; 
       min-width: 383px;
+  }
+
+  .formacion .academico{
+    grid-template-areas: 'UNSAM1 UNSAM1'
+                         'UNSAM2 UNSAM2'
+                         'PROF PROF'
+                         'SEC SEC';
   }
     
 
