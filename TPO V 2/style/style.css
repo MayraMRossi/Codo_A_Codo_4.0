@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
 }
+
 /* Contenedor de toda la pagina */
 .cont-1{
     display:grid;
@@ -22,8 +23,6 @@
     border-radius: 50%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-
-
 
 
 /* Animacion */
@@ -165,6 +164,7 @@ header{
         color:#27305b;
         padding: 2px;
       }
+
       .fotoynombre h3{
         color:#ffe5a0;
       }
@@ -183,6 +183,7 @@ header{
       .sobre_mi p{
         color:#27305b;
       }
+
       .sobre_mi .btn_cv a{
         max-width: 250px;
         display:grid;
@@ -215,7 +216,6 @@ header{
             cursor:pointer;
           }
 
-          
       .experiencia{
         background-color: #ffe5a0;
         padding:5%;
@@ -226,7 +226,6 @@ header{
         font-size: 2.25rem;   
       }
 
-
       .estudios{
         background-color: #f58c77;
         padding:5%;
@@ -236,8 +235,6 @@ header{
         color:#27305b;
         font-size: 2.25rem;   
       }
-
-
 
 
   /* FOOTER */
@@ -253,7 +250,6 @@ header{
       justify-content: center;
     }
 
-
     footer h3{
       color: #f58c77;
       font-size: 18px;
@@ -267,7 +263,6 @@ header{
       margin: 5px;
     }
 
-
     footer .contact a{
       font-size: 15px;
       text-decoration: none;
@@ -278,6 +273,7 @@ header{
       min-width: 300px;
       margin:5px;
     }
+
     footer .contact a:visited{
       color:#ffe5a0;
       text-decoration: none;
@@ -293,7 +289,6 @@ header{
       align-content: center;
       align-items: center;
     }
-
 
     footer .powered a{
       color:#f58c77;
@@ -331,7 +326,6 @@ header{
         margin:10px 0px;
       }
 
-
       form h2{
     
         padding: 30px 0px;
@@ -346,15 +340,11 @@ header{
         flex-direction: column;
                        
       }
+
       form .cont-7{
         display:flex;
         flex-direction: row;
       }
-
-
-
-
-
 
 
 /* Media queries */
