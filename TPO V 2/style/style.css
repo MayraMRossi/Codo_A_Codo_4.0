@@ -217,9 +217,8 @@ header{
             color:#27305b;
             text-decoration: none;
             cursor:pointer; 
-            background-color: #27305b;       
-
           }
+
           .sobre_mi .btn_cv:hover{
             background-color: #ffe5a0;
             color:#27305b;
@@ -236,12 +235,12 @@ header{
         font-size: 2.25rem;   
       }
 
-      .estudios{
+      .formacion{
         background-color: #f58c77;
         padding:5%;
       }
 
-      .estudios h2{
+      .formacion h2{
         color:#27305b;
         font-size: 2.25rem;   
       }
