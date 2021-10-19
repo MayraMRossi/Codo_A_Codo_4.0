@@ -118,10 +118,9 @@ header{
         header nav a{
             margin: 3px;
             color:#ffe5a0;
-            text-align: left;
             text-shadow: 1px 1px black;
             padding: 8px 10px;
-            max-width: 120px;
+            
             background: #234567;
             white-space: nowrap;
             display:grid;
@@ -134,6 +133,13 @@ header{
 
         header nav a:hover{
           background: #2d353d;
+        }
+        header nav i{
+          text-align: center;
+        }
+        header nav h3{
+          text-align: left;
+          max-width: 90px;
         }
   
 
