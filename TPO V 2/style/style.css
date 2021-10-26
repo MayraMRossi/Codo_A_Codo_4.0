@@ -382,72 +382,7 @@ header{
 
     
 
-/* Formulario de Contacto */
-.Cont-6{
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: center;
-}
 
-    form{
-      padding: 0% 10%;
-      background-color: #ffe5a0;
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
-      justify-items: center;
-    }
-
-      form h2{
-        margin-top: 30px;
-        padding: 30px 0px;
-        font-size: 2.25rem;
-        color:#234567;
-
-      }
-
-      form label{
-        margin:10px 0px;
-        color: #27305b;
-        font-size: 15px;
-      }
-
-      .cont-5 input,.cont-5 textarea{
-        border: 0;
-        color:#27305b;
-        padding: 5px;
-        font-size: 13px;
-        border-radius: 2px;
-        max-width: 500px;
-        
-      }
-
-      .cont-7 input{
-        padding: 10px;
-        margin: 30px 10px;
-        background-color: #f58c77;
-        border: 0px;
-        border-radius: 2px;
-        color:#27305b;
-      }
-
-      form .cont-5{
-        min-width: 80%;
-        display: flex;
-        flex-direction: column;
-                       
-      }
-
-      form .cont-7{
-        display:flex;
-        flex-direction: row;
-      }
-      form img{
-        max-height: 60%;
-
-      }
 
 
 
