@@ -72,7 +72,7 @@
       display:none;
     }
     .cont-5 input,.cont-5 textarea{
-      max-width: auto;
+      max-width: 8000px;
       
     }
   }
