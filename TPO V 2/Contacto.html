@@ -55,24 +55,7 @@
             </div>
         </footer>
     </div>
-    <script>
-        /* Script para cargar un google sheets */
-        /* se puede visualizar la informacion que se carga en la siguiente planilla: https://docs.google.com/spreadsheets/d/1_DWHeWmm1zkM1NuA9CMb7pG8zvszTxbd9Nr7AMaS2lo/edit?usp=sharing */
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxeSb2vyBylGqsgbqbbeBSOWZo6NYtiulXPvKL7GFwPH-kc2r7D1TxZiHboPTNu11JI/exec'
-        const form = document.forms['submit-form']
-
-        form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-            document.forms['submit-form'].reset()
-        })
-        /* Información tomada de: https://medium.com/zurvin/enviar-formulario-a-google-spreadsheet-con-js-153257d97824 */
-
-
-
-    </script>
+   
     
     
 </body>
