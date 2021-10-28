@@ -314,6 +314,8 @@ header{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 12px 12px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: grid;
     justify-content: center;
+    position:relative;
+    top: 0;
   }
 
     .contenido{
@@ -335,7 +337,7 @@ header{
       margin-bottom: 10px;
     }
 
-    footer .contact a{
+    .contact a{
       font-size: 15px;
       text-decoration: none;
       color:#ffe5a0;
@@ -346,7 +348,7 @@ header{
       margin:5px;
     }
 
-    footer .contact a:visited{
+    .contact a:visited{
       color:#ffe5a0;
       text-decoration: none;
     }
@@ -384,6 +386,8 @@ header{
       position: relative;
       overflow: hidden;
       padding-top: 56.25%;
+      height: 700px;
+      
     }
     .resp-iframe{
       position: absolute;
@@ -392,7 +396,15 @@ header{
       width: 100%;
       height: 100%;
       border: 0;
+      
     }
+
+  .Cont-6{
+    display:grid;
+    grid-template-columns:1fr;
+  
+    
+  }
 
     
 
