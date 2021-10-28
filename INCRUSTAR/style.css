@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-    height: 800px;
+    height: 720px;
   }
   
       form{
