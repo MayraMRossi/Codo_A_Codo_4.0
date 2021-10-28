@@ -69,6 +69,6 @@
 
   @media all and (max-width: 800px){
     img{
-      visibility: hidden;
+      diplay:none;
     }
   }
