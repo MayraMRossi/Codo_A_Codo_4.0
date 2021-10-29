@@ -506,7 +506,7 @@ header{
     .docente li{
       list-style:none;
       background-color: #27305b;
-      padding:10px;
+      padding:20px;
       justify-items: center;
       width: 200px;
       margin: 10px;
@@ -516,12 +516,19 @@ header{
     }
     .docente h4{
       color:#f58c77;
+      font-size: medium;
       
     }
 
     .docente h5{
       color:#ffe5a0;
       margin:10px 0px;
+      font-size: small;
+    }
+    .docente h6{
+      color:#ffe5a0;
+      margin:10px 0px;
+      font-size:x-small;
     }
 
 
