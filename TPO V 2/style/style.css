@@ -480,18 +480,18 @@ header{
     .psicopedagogia h3{
       margin-top: 50px;
       text-align: justify;
-
+      color: #27305b;
     }
+
 
   .docente{
     display:grid;
     grid-template-columns: 1fr;
     align-content: center;
     align-items: center;
-    
     background-color:#ffe5a0;
     padding:5%;
-    gap:40px;    
+    gap:40px;   
   }
 
     .docente h2{
@@ -499,10 +499,12 @@ header{
       font-size: 2.25rem; 
     }
 
+
     .docente ul{
       display: flex;
       flex-wrap: wrap;
-      justify-content:space-around;
+
+
     }
 
     .docente li{
