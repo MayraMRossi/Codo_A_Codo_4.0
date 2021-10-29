@@ -497,6 +497,34 @@ header{
       font-size: 2.25rem; 
     }
 
+    .docente ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:flex-start
+    }
+
+    .docente li{
+      list-style:none;
+      background-color: #27305b;
+      padding:10px;
+      justify-items: center;
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+      
+    }
+    .docente h4{
+      color:#f58c77;
+      
+    }
+
+    .docente h5{
+      color:#ffe5a0;
+      margin:10px 0px;
+    }
+
+
 
 
 
