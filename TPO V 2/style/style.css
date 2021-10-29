@@ -469,6 +469,7 @@ header{
     align-items: center;
     background-color: #f58c77;
     padding:5%;
+    gap:40px;
   }
 
     .psicopedagogia h2{
@@ -478,16 +479,17 @@ header{
 
     .psicopedagogia h3{
       margin-top: 50px;
-      
+
     }
 
   .docente{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-content: center;
     align-items: center;
     background-color:#ffe5a0;
     padding:5%;
+    gap:40px;    
   }
 
     .docente h2{
