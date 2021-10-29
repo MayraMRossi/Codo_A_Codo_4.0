@@ -1,5 +1,7 @@
 
-/* Diseñado desktop first */
+/* Diseñado en desktop first
+   por Mayra Melina Rossi 
+   para el curso Codo a Codo 4.0 año 2021*/
 
 *{
     margin: 0px;
@@ -25,7 +27,7 @@
 }
 
 
-/* Animacion */
+/* Animación */
 
 .animation-foto {
   -webkit-animation: animation 5000ms linear both;
@@ -86,6 +88,7 @@ header{
     header .home{
       text-decoration:none;
     }
+    
     header .home:visited{
       text-decoration:none;
       color:#ffe5a0;
@@ -102,7 +105,6 @@ header{
     .boton{
       display: none;
       opacity:0;
-      
     }
 
     header ul{
@@ -120,7 +122,6 @@ header{
             color:#ffe5a0;
             text-shadow: 1px 1px black;
             padding: 8px 10px;
-            
             background: #234567;
             white-space: nowrap;
             display:grid;
@@ -134,9 +135,11 @@ header{
         header nav a:hover{
           background: #2d353d;
         }
+
         header nav i{
           text-align: center;
         }
+
         header nav h3{
           text-align: left;
           max-width: 90px;
@@ -149,6 +152,7 @@ header{
   grid-template-columns: repeat(1,1fr);
   align-content: center;
 }
+
   .cont-3{
     display:grid;
     grid-template-columns: 1fr 2fr;
@@ -225,7 +229,6 @@ header{
             cursor:pointer;
           }
 
-
       .experiencia{
         background-color: #ffe5a0;
         padding:5%;
@@ -242,6 +245,7 @@ header{
         grid-template-columns: 1fr 1fr;
 
       }
+
       .experiencia .block{
         display:grid;
         grid-template-columns: 1fr 4fr;
@@ -257,6 +261,7 @@ header{
         font-size: 1.33rem;
         margin-bottom: 10px;
       }
+
       .experiencia h4{
         font-size: 1rem;
         margin-bottom: 10px;
@@ -273,8 +278,6 @@ header{
       .experiencia a{
         text-decoration: none;
         cursor:pointer;
-        
-        
       }
 
 
@@ -296,15 +299,19 @@ header{
           color:#27305b;
           font-size: 2.25rem;   
         }
+
         .formacion .UNSAM1{
           grid-area: UNSAM1;
         }
+
         .formacion .UNSAM2{
           grid-area: UNSAM2;
         }
+
         .formacion .PROF{
           grid-area: PROF;
         }
+
         .formacion .SEC{
           grid-area: SEC;
         }
@@ -312,12 +319,12 @@ header{
         .formacion .academico{
           padding:40px 0px;
           display:grid;
-          
           gap:40px;
           grid-template-areas: 'UNSAM1 UNSAM1'
                                'UNSAM2 UNSAM2'
                                'PROF SEC';
         }
+
         .formacion .mod{
           display:flex;
           flex-direction: row;
@@ -327,6 +334,7 @@ header{
           border-radius: 10px;
           box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         }
+
           .formacion i{
             color:#f58c77;
             padding-right: 19px;
@@ -338,12 +346,12 @@ header{
           .formacion h3{
             color: #27305b;
             padding-bottom: 10px;
-            
-
           }
+
           .formacion h4{
             color: #27305b;
           }
+
           .formacion h5{
             color: #27305b;
             border-color: #27305b;
@@ -377,7 +385,6 @@ header{
       color: #f58c77;
       font-size: 18px;
       margin: 15px;
-
     }
 
     .contact{
@@ -429,15 +436,14 @@ header{
       text-align: center;
       margin: 15px;
       text-decoration: none;
-  
     }
 
     .cont-10{
       position: relative;
       overflow:auto;
       height: 720px;
-      
     }
+
     .resp-iframe{
       position: absolute;
       top: 0;
@@ -445,14 +451,12 @@ header{
       width: 100%;
       height: 720px;
       border: 0;
-      
     }
 
   .Cont-6{
     display:grid;
     grid-template-columns:1fr;
     background-color:#ffe5a0;
-    
   }
 
     
@@ -484,7 +488,6 @@ header{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
     }
 
 
@@ -575,7 +578,6 @@ header{
     
     .respmenu input:checked ~ nav {
       display: block; /* extiende los elementos */
-      
     }
     
     .respmenu input:checked ~ .fa-bars {
@@ -585,11 +587,10 @@ header{
     .respmenu input:not(:checked) ~ .fa-times {
       display: none; /* oculta el icono cruz cuando esta cerrada */
     }
-    .contact{
 
+    .contact{
       grid-template-columns: 1fr;
-    }
-                  
+    }      
 
   }
       
@@ -599,29 +600,30 @@ header{
     .cont-5 input,.cont-5 textarea{
       min-width: 200px;
     }
+
     .experiencia .block{
       display:grid;
       grid-template-columns: 1fr;
       justify-items: center;
-      
     }
+
     .experiencia h3{
       text-align: center;
     }
+
     .experiencia h4{
       text-align: justify;
     }
+
     .experiencia h5{
       text-align: center;
     }
+    
     .experiencia a{
       display: flex;
       text-align: center;
       justify-content: center;
       align-content: center;
-
     }
-
-
-  
+ 
   }
