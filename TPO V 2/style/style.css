@@ -236,6 +236,16 @@ header{
         font-size: 2.25rem; 
       }
 
+      .experiencia .cont-4{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+
+      }
+      .experiencia .block{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
       .experiencia a{
         text-decoration: none;
         cursor:pointer;
@@ -493,6 +503,12 @@ header{
                          'PROF PROF'
                          'SEC SEC';
   }
+
+  .experiencia .cont-4{
+    display:grid;
+    grid-template-columns: 1fr;
+    
+  }
     
 
   /* menu Hamburguesa */
@@ -550,6 +566,10 @@ header{
 
     .cont-5 input,.cont-5 textarea{
       min-width: 200px;
+    }
+    .experiencia .block{
+      display:grid;
+      grid-template-columns: 1fr;
     }
   
   }
