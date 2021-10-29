@@ -471,15 +471,29 @@ header{
     padding:5%;
   }
 
+    .psicopedagogia h2{
+      color:#27305b;
+      font-size: 2.25rem; 
+    }
+
+    .psicopedagogia h3{
+      margin-top: 50px;
+      
+    }
+
   .docente{
     display:grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     align-content: center;
     align-items: center;
     background-color:#ffe5a0;
     padding:5%;
   }
 
+    .docente h2{
+      color:#27305b;
+      font-size: 2.25rem; 
+    }
 
 
 
