@@ -246,7 +246,16 @@ header{
         grid-template-columns: 1fr 1fr;
       }
 
-      .experiencia h2
+      .experiencia img{
+        max-width: 10vw;
+      }
+
+      .experiencia h3{
+        font-size: 1.33rem;
+      }
+      .experiencia h4{
+        font-size: 1rem;
+      }
 
       .experiencia a{
         text-decoration: none;
