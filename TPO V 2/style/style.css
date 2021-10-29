@@ -246,6 +246,8 @@ header{
         grid-template-columns: 1fr 1fr;
       }
 
+      .experiencia h2
+
       .experiencia a{
         text-decoration: none;
         cursor:pointer;
