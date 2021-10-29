@@ -405,6 +405,58 @@ header{
     
   }
 
+  /* Experiencia index */
+  .cont-4{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+  }
+    .block{
+      display:grid;
+      background-color:#f58c77;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      margin-top: 40px;
+      border-radius: 10px;
+      padding:20px;
+      display:grid;
+      grid-template-columns:1fr 7fr;
+      grid-template-areas: "img titulo"
+                            "img texto"
+                            "img btn";
+      grid-template-rows:1fr 7fr 1fr;
+
+
+    }
+      .block img{
+        grid-area: img;
+        max-height:30vh;
+        max-width: 20vw;
+        margin-right: 20px;
+
+
+
+      }
+      .block h2{
+        grid-area: titulo;
+        font-size: 1.33em;
+      }
+      .block h3{
+        grid-area: texto;
+        font-size: 1.17em; 
+      }
+      .block h4{
+        grid-area: btn;
+        font-size: 1.17em;
+        margin-top:10px;
+        align-self:center;
+        justify-self: center;
+      }
+
+
+  /* Experiencia */
+
+
+
     
 
 
@@ -479,6 +531,9 @@ header{
                          'SEC SEC';
   }
     
+  .cont-4{
+    grid-template-columns:1fr;
+  }
 
   /* menu Hamburguesa */
 
