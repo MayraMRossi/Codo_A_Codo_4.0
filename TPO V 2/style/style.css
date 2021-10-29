@@ -88,7 +88,7 @@ header{
     header .home{
       text-decoration:none;
     }
-    
+
     header .home:visited{
       text-decoration:none;
       color:#ffe5a0;
@@ -459,7 +459,26 @@ header{
     background-color:#ffe5a0;
   }
 
-    
+
+ /*  Página Experiencia */
+
+  .psicopedagogia {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    align-items: center;
+    background-color: #f58c77;
+    padding:5%;
+  }
+
+  .docente{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    align-items: center;
+    background-color:#ffe5a0;
+    padding:5%;
+  }
 
 
 
@@ -469,9 +488,6 @@ header{
 
 
 @media all and (max-width: 800px){
-
-
-
 
     header h1{
       font-size: 20px;
@@ -593,6 +609,11 @@ header{
     }      
 
   }
+
+
+
+
+
       
 
   @media all and (max-width: 480px){
