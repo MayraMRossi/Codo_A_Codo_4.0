@@ -229,6 +229,7 @@ header{
       .experiencia{
         background-color: #ffe5a0;
         padding:5%;
+        color:#27305b;
       }
 
       .experiencia h2{
@@ -243,24 +244,37 @@ header{
       }
       .experiencia .block{
         display:grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 4fr;
+        margin-top: 30px;
+        
       }
 
       .experiencia img{
-        max-width: 10vw;
+        width: 15vw;
       }
 
       .experiencia h3{
         font-size: 1.33rem;
+        margin-bottom: 10px;
       }
       .experiencia h4{
         font-size: 1rem;
+        margin-bottom: 10px;
+        text-align: justify;
+      }
+
+      .experiencia h5{
+        background-color: #f58c77;
+        padding: 4px;
+        max-width: fit-content;
+        border-radius: 3px;
       }
 
       .experiencia a{
         text-decoration: none;
         cursor:pointer;
-        color:#27305b;
+        
+        
       }
 
 
@@ -518,8 +532,15 @@ header{
   .experiencia .cont-4{
     display:grid;
     grid-template-columns: 1fr;
-    
+  
   }
+
+
+  .experiencia img{
+    width:160px;
+  }
+
+
     
 
   /* menu Hamburguesa */
@@ -581,6 +602,26 @@ header{
     .experiencia .block{
       display:grid;
       grid-template-columns: 1fr;
+      justify-items: center;
+      
     }
+    .experiencia h3{
+      text-align: center;
+    }
+    .experiencia h4{
+      text-align: justify;
+    }
+    .experiencia h5{
+      text-align: center;
+    }
+    .experiencia a{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-content: center;
+
+    }
+
+
   
   }
