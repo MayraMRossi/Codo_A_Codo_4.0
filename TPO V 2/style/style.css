@@ -274,11 +274,14 @@ header{
         padding: 4px;
         max-width: fit-content;
         border-radius: 3px;
+        font-size: 1rem;
       }
+
 
       .experiencia a{
         text-decoration: none;
         cursor:pointer;
+        color:#27305b;
       }
 
 
@@ -513,7 +516,7 @@ header{
       background-color: #27305b;
       padding:20px;
       justify-items: center;
-      width: 200px;
+      width: 250px;
       margin: 10px;
       border-radius: 10px;
       box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
@@ -622,6 +625,8 @@ header{
   }
 
 
+
+
     
 
   /* menu Hamburguesa */
@@ -707,6 +712,10 @@ header{
       text-align: center;
       justify-content: center;
       align-content: center;
+    }
+
+    .docente li{
+      width:100%;
     }
  
   }
