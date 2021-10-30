@@ -1,7 +1,10 @@
 
-/* Diseñado desktop first */
 
-*{
+/* Diseñado en desktop first
+   por Mayra Melina Rossi 
+   para el curso Codo a Codo 4.0 año 2021*/
+
+   *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -25,7 +28,7 @@
 }
 
 
-/* Animacion */
+/* Animación */
 
 .animation-foto {
   -webkit-animation: animation 5000ms linear both;
@@ -86,6 +89,7 @@ header{
     header .home{
       text-decoration:none;
     }
+
     header .home:visited{
       text-decoration:none;
       color:#ffe5a0;
@@ -102,7 +106,6 @@ header{
     .boton{
       display: none;
       opacity:0;
-      
     }
 
     header ul{
@@ -120,7 +123,6 @@ header{
             color:#ffe5a0;
             text-shadow: 1px 1px black;
             padding: 8px 10px;
-            
             background: #234567;
             white-space: nowrap;
             display:grid;
@@ -134,9 +136,11 @@ header{
         header nav a:hover{
           background: #2d353d;
         }
+
         header nav i{
           text-align: center;
         }
+
         header nav h3{
           text-align: left;
           max-width: 90px;
@@ -149,6 +153,7 @@ header{
   grid-template-columns: repeat(1,1fr);
   align-content: center;
 }
+
   .cont-3{
     display:grid;
     grid-template-columns: 1fr 2fr;
@@ -225,16 +230,65 @@ header{
             cursor:pointer;
           }
 
-
       .experiencia{
         background-color: #ffe5a0;
         padding:5%;
+        color:#27305b;
       }
 
       .experiencia h2{
         color:#27305b;
-        font-size: 2.25rem;   
+        font-size: 2.25rem; 
       }
+
+      .experiencia .cont-4{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+
+      }
+
+      .experiencia .block{
+        display:grid;
+        grid-template-columns: 1fr 4fr;
+        margin-top: 30px;
+        
+      }
+
+      .experiencia img{
+        width: 15vw;
+      }
+
+      .experiencia h3{
+        font-size: 1.33rem;
+        margin-bottom: 10px;
+      }
+
+      .experiencia h4{
+        font-size: 1rem;
+        margin-bottom: 10px;
+        text-align: justify;
+      }
+
+      .experiencia h5{
+        background-color: #f58c77;
+        padding: 4px;
+        max-width: fit-content;
+        border-radius: 3px;
+      }
+
+      .experiencia a{
+        text-decoration: none;
+        cursor:pointer;
+      }
+
+
+      .experiencia a:visited{
+        text-decoration: none;
+        cursor:pointer;
+        color:#27305b;
+      }
+
+      /* Formación */
 
 
       .formacion{
@@ -246,15 +300,19 @@ header{
           color:#27305b;
           font-size: 2.25rem;   
         }
+
         .formacion .UNSAM1{
           grid-area: UNSAM1;
         }
+
         .formacion .UNSAM2{
           grid-area: UNSAM2;
         }
+
         .formacion .PROF{
           grid-area: PROF;
         }
+
         .formacion .SEC{
           grid-area: SEC;
         }
@@ -262,12 +320,12 @@ header{
         .formacion .academico{
           padding:40px 0px;
           display:grid;
-          
           gap:40px;
           grid-template-areas: 'UNSAM1 UNSAM1'
                                'UNSAM2 UNSAM2'
                                'PROF SEC';
         }
+
         .formacion .mod{
           display:flex;
           flex-direction: row;
@@ -277,6 +335,7 @@ header{
           border-radius: 10px;
           box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         }
+
           .formacion i{
             color:#f58c77;
             padding-right: 19px;
@@ -288,12 +347,12 @@ header{
           .formacion h3{
             color: #27305b;
             padding-bottom: 10px;
-            
-
           }
+
           .formacion h4{
             color: #27305b;
           }
+
           .formacion h5{
             color: #27305b;
             border-color: #27305b;
@@ -327,7 +386,6 @@ header{
       color: #f58c77;
       font-size: 18px;
       margin: 15px;
-
     }
 
     .contact{
@@ -379,15 +437,14 @@ header{
       text-align: center;
       margin: 15px;
       text-decoration: none;
-  
     }
 
     .cont-10{
       position: relative;
       overflow:auto;
       height: 720px;
-      
     }
+
     .resp-iframe{
       position: absolute;
       top: 0;
@@ -395,69 +452,89 @@ header{
       width: 100%;
       height: 720px;
       border: 0;
-      
     }
 
   .Cont-6{
     display:grid;
     grid-template-columns:1fr;
     background-color:#ffe5a0;
-    
   }
 
-  /* Experiencia index */
-  .cont-4{
+
+ /*  Página Experiencia */
+
+  .psicopedagogia {
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    align-items: center;
+    background-color: #f58c77;
+    padding:5%;
     gap:40px;
   }
-    .block{
-      display:grid;
-      background-color:#f58c77;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-      margin-top: 40px;
-      border-radius: 10px;
-      padding:20px;
-      display:grid;
-      grid-template-columns:1fr 7fr;
-      grid-template-areas: "img titulo"
-                            "img texto"
-                            "img btn";
-      grid-template-rows:1fr 7fr 1fr;
+
+    .psicopedagogia h2{
+      color:#27305b;
+      font-size: 2.25rem; 
+    }
+
+    .psicopedagogia h3{
+      margin-top: 50px;
+      text-align: justify;
+      color: #27305b;
+    }
+
+
+  .docente{
+    display:grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    align-items: center;
+    background-color:#ffe5a0;
+    padding:5%;
+    gap:40px;   
+  }
+
+    .docente h2{
+      color:#27305b;
+      font-size: 2.25rem; 
+    }
+
+
+    .docente ul{
+      display: flex;
+      flex-wrap: wrap;
 
 
     }
-      .block img{
-        grid-area: img;
-        max-height:30vh;
-        max-width: 20vw;
-        margin-right: 20px;
 
+    .docente li{
+      list-style:none;
+      background-color: #27305b;
+      padding:20px;
+      justify-items: center;
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+      
+    }
+    .docente h4{
+      color:#f58c77;
+      font-size: medium;
+      
+    }
 
-
-      }
-      .block h2{
-        grid-area: titulo;
-        font-size: 1.33em;
-      }
-      .block h3{
-        grid-area: texto;
-        font-size: 1.17em; 
-      }
-      .block h4{
-        grid-area: btn;
-        font-size: 1.17em;
-        margin-top:10px;
-        align-self:center;
-        justify-self: center;
-      }
-
-
-  /* Experiencia */
-
-
-
-    
+    .docente h5{
+      color:#ffe5a0;
+      margin:10px 0px;
+      font-size: small;
+    }
+    .docente h6{
+      color:#ffe5a0;
+      margin:10px 0px;
+      font-size:x-small;
+    }
 
 
 
@@ -467,9 +544,6 @@ header{
 
 
 @media all and (max-width: 800px){
-
-
-
 
     header h1{
       font-size: 20px;
@@ -486,7 +560,6 @@ header{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
     }
 
 
@@ -524,16 +597,32 @@ header{
       min-width: 383px;
   }
 
+
+
   .formacion .academico{
     grid-template-areas: 'UNSAM1 UNSAM1'
                          'UNSAM2 UNSAM2'
                          'PROF PROF'
                          'SEC SEC';
   }
-    
-  .cont-4{
-    grid-template-columns:1fr;
+  .psicopedagogia {
+    grid-template-columns: 1fr;
+    gap:0;
   }
+
+  .experiencia .cont-4{
+    display:grid;
+    grid-template-columns: 1fr;
+  
+  }
+
+
+  .experiencia img{
+    width:160px;
+  }
+
+
+    
 
   /* menu Hamburguesa */
 
@@ -567,7 +656,6 @@ header{
     
     .respmenu input:checked ~ nav {
       display: block; /* extiende los elementos */
-      
     }
     
     .respmenu input:checked ~ .fa-bars {
@@ -577,13 +665,17 @@ header{
     .respmenu input:not(:checked) ~ .fa-times {
       display: none; /* oculta el icono cruz cuando esta cerrada */
     }
-    .contact{
 
+    .contact{
       grid-template-columns: 1fr;
-    }
-                  
+    }      
 
   }
+
+
+
+
+
       
 
   @media all and (max-width: 480px){
@@ -591,5 +683,30 @@ header{
     .cont-5 input,.cont-5 textarea{
       min-width: 200px;
     }
-  
+
+    .experiencia .block{
+      display:grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+
+    .experiencia h3{
+      text-align: center;
+    }
+
+    .experiencia h4{
+      text-align: justify;
+    }
+
+    .experiencia h5{
+      text-align: center;
+    }
+    
+    .experiencia a{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-content: center;
+    }
+ 
   }
