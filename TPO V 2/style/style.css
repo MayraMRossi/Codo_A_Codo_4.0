@@ -612,6 +612,11 @@ header{
     grid-template-columns: 1fr;
     gap:0;
   }
+.psicopedagogia h2{
+      color:#27305b;
+      font-size: 2.25rem; 
+      margin-top: 50px;
+    }
 
   .experiencia .cont-4{
     display:grid;
