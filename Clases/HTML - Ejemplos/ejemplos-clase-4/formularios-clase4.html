@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" size="10" maxlength="4">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" size="10" required>
+            <br>
+            <label for="nombre">DNI:</label>
+            <input type="number">
+            <br><br>
+            Clave: <input type="password">
+        </fieldset>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escribe..."></textarea>
+        <br><br>
+        <label for="turno">Seleccione turno:</label>
+        <select name="turno" id="turno" size="3" multiple>
+            <option value="1">Mañana</option>
+            <option value="2">Tarde</option>
+            <option value="3">Noche</option>
+        </select>
+        <br><br>
+        <input type="checkbox" name="op" value="1"> Opcion 1
+        <input type="checkbox" name="op" value="2"> Opcion 2
+        <input type="checkbox" name="op" value="3"> Opcion 3
+        <br><br>
+        <input type="radio" name="rb" value="1"> Mañana
+        <input type="radio" name="rb" value="1"> Tarde
+        <input type="radio" name="rb" value="1"> Noche
+        <br><br>
+        Color: <input type="color" name="color_control" />
+        <br><br>
+        <label>Comensales (min 1, max 10): </label><input type="number" name="comensales" min="1" max="10"/>
+        <br><br>
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="Borrar">
+        
+    </form>
+
+</body>
+</html>

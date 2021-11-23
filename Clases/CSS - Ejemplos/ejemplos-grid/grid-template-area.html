@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- https://www.w3schools.com/css/css_grid.asp -->
+    <style>
+        /* Propiedad grid-area
+Puede usar la propiedad de área de cuadrícula para nombrar elementos de cuadrícula.
+Puede hacer referencia al nombre cuando configure el diseño de la cuadrícula, utilizando la propiedad grid-template-areas en el contenedor de la cuadrícula.
+*/
+        .item1 {grid-area: header;}
+        .item2 {grid-area: menu;}
+        .item3 {grid-area: main;}
+        .item4 {grid-area: right;}
+        .item5 {grid-area: footer;}
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                /*6 columnas*/
+                'header header header header header header'
+                'menu main main main main right'
+                'menu footer footer footer footer footer';
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grid Layout</h1>
+    <p>Este diseño de cuadrícula contiene seis columnas y tres filas:</p>
+    <div class="grid-container">
+        <div class="item1">Encabezado</div>
+        <div class="item2">Menú</div>
+        <div class="item3">Principal</div>
+        <div class="item4">Derecha</div>
+        <div class="item5">Pie</div>
+    </div>
+</body>
+
+</html>

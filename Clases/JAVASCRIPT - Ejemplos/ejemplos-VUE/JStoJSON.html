@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS to JSON</title>
+</head>
+
+<body>
+    <!-- Convirtiendo de JavaScript a JSON: -->
+    <script>
+        var ej1 = JSON.stringify({ x: 5, y: 6 });
+        var ej2 = JSON.stringify([new Number(3), new String('false'), new Boolean(false)]);
+        var ej3 = JSON.stringify({ x: [10, undefined, function () { }, Symbol('')] });
+        var ej4 = JSON.stringify(new Date(2021, 10, 12, 15, 4, 5));
+    
+        console.log(ej1);
+        console.log(ej2);
+        console.log(ej3);
+        console.log(ej4);
+    </script>
+</body>
+
+</html>
